@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="31">
+
+    <cloud-backup>
+        <!-- Örnekler:
+        <include domain="sharedpref" path="."/>
+        <exclude domain="database" path="secret.db"/>
+        -->
+    </cloud-backup>
+
+    <device-transfer>
+        <!-- Örnekler:
+        <include domain="file" path="."/>
+        <exclude domain="sharedpref" path="do_not_transfer.xml"/>
+        -->
+    </device-transfer>
+</data-extraction-rules>
